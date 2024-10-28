@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snakes and Ladders</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Snakes and Ladders</h1>
+        <input type="text" id="username" placeholder="Enter your name" />
+        <button id="startButton">Start Game</button>
+        <div id="gameArea" class="hidden">
+            <div id="board"></div>
+            <div id="controls">
+                <button id="rollButton">Roll Dice</button>
+                <div id="diceResult">Dice: <span id="diceValue">0</span></div>
+                <div id="playerPosition">Position: 0</div>
+            </div>
+            <div id="message" class="hidden"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
